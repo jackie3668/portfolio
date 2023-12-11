@@ -10,7 +10,22 @@ const Navbar = () => {
   const handleMobileClick = () => {
     setMenuClicked(true);
     setMenuHidden(!menuHidden)
+
   };
+  
+  const handleWindowResize = () => {
+    if (window.innerWidth > 600) {
+      setMenuHidden(true)
+      setMenuClicked(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('resize', handleWindowResize);
+    return () => {
+      window.removeEventListener('resize', handleWindowResize);
+    };
+  }, []);
 
   return (
     <div className='navbar'>
