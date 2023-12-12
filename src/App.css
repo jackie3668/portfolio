@@ -16,12 +16,34 @@ body {
   color: var(--text);
   background-color: var(--background);
   font-size: 1rem;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
+}
+
+p {
+  font-weight: 200;
+  letter-spacing: 1px;
+  line-height: 1.25rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 4rem;
+  letter-spacing: -0.5px;
+}
+
+h2 {
+  font-weight: 300;
+}
+
+h5 {
+  font-weight: 200;
+  letter-spacing: 2.5px;
 }
 
 html {

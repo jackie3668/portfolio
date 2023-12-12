@@ -10,7 +10,10 @@ const Hero = () => {
         <img src={hero_bg} alt="" />
       </div>
       <div className="hero-content">
-        <h1>Hi, my name is Jackie Shen</h1>
+        <h5>Design, Develop, Deliver</h5>
+        <h1>HI, MY NAME IS <br/><span>JACKIE SHEN</span></h1>
+        <h2>UX/UI Developer</h2>
+        <p>Jackie is a passionate UX/UI developer, skilled in turning designs into industry-ready products. Her expertise in user research, prototyping, and a detail-oriented approach result in creative, user-friendly solutions.</p>
       </div>
     </div>
   )
