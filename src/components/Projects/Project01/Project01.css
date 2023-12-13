@@ -1,0 +1,62 @@
+:root {
+  --project01: #fdaf68;
+}
+.project p {
+  font-weight: 300;
+
+}
+
+.project01-overview {
+  background-image: url('../../../asset/project/project01/background.png');
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 20rem;
+}
+
+.project01-overview-top {
+  background-color: var(--background);
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.project01-overview-top h2 {
+  font-style: italic;
+}
+
+.project01-overview-top-details {
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.project01-overview-top-details-overview {
+  flex: 5;
+}
+
+.project01-overview-top-details-overview h2 {
+  font-style: normal;
+  font-weight: 600;
+}
+
+.project01-overview-top-details-info {
+  flex: 3;
+}
+
+.project01-overview-top-details-info span {
+  font-weight: 600;
+}
+
+.project01-overview-bottom {
+  background-color: var(--background);
+  padding: 5%;
+}
+
+.test {
+  background-color: var(--background);
+  height: 50vh;
+}
