@@ -22,6 +22,7 @@ body {
 
 p {
   font-weight: 200;
+  font-size: 0.875rem;
   letter-spacing: 1px;
   line-height: 1.25rem;
 }
@@ -32,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-weight: 400;
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 4rem;
   letter-spacing: -0.5px;
 }
@@ -41,8 +42,11 @@ h2 {
   font-weight: 300;
 }
 
+h4 {
+  font-weight: 400;
+}
 h5 {
-  font-weight: 200;
+  font-weight: 300;
   letter-spacing: 2.5px;
 }
 
@@ -50,6 +54,17 @@ html {
   font-size: 16px;
 }
 
+button {
+  width: 75%;
+  padding: 0.75rem;
+  font-size: 0.75rem;
+  letter-spacing: 3px;
+  background-color: var(--secondary);
+  outline: none;
+  border: 1px solid var(--text);
+  border-radius: 50px;
+  cursor: pointer;
+}
 
 @media only screen and (max-width: 600px) {
   body {
