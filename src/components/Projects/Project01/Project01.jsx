@@ -1,6 +1,8 @@
 import React from 'react'
 import './Project01.css'
-import background from '../../../asset/project/project01/background.png'
+import mockup_all from '../../../asset/project/project01/mockup-all.png'
+import persona from '../../../asset/project/project01/persona.jpg'
+import ideation from '../../../asset/project/project01/ideation.png'
 
 const Project01 = () => {
   return (
@@ -24,10 +26,31 @@ const Project01 = () => {
           </div>
         </div>
         <div className="project01-overview-bottom">
-    
+          <h1>Final Product</h1>
+          <img src={mockup_all} alt="" />
         </div>
-        <div className="test">
-          dewfijiefjeiofj
+        <div className="project01-details">
+          <div className="project01-details-research">
+            <h1>Primary and Secondary Research</h1>
+            <p>The study utilized a questionnaire and interviews to explore mental health challenges during Toronto's winter. Participants provided informed consent and answered structured questions. Thematic analysis and the affinity diagram method identified key themes like seasonal mood changes and coping mechanisms. Findings revealed significant winter-induced mental health impacts, underscoring the need for accessible support and effective coping strategies.</p>
+          </div>
+          <div className="project01-details-persona">
+            <h1>Persona</h1>
+            <img src={persona} alt="" />
+            <p>Li Hua's persona vividly illustrates the mental health challenges faced during Toronto's winters, with an emphasis on the impact of the harsh weather conditions. This persona helps in understanding the typical needs, goals, and obstacles of students during winter, thereby guiding the development of effective strategies and solutions to enhance their mental well-being and overall quality of life during the colder months.</p>
+          </div>
+          <div className="project01-details-ideation">
+            <h1>Ideation</h1>
+            <img src={ideation} alt="" />
+          </div>
+          <div className="project01-details-prototype">
+            <h1>Prototype</h1>
+            <button><a href="https://www.figma.com/proto/Qlno4l7ZElCxOq2nFYCltV/WinterBliss?type=design&node-id=6-5&t=MU705UTqKDvRoWCW-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=6%3A5&mode=design" target="_blank">See Mid-Fidelity Prototype</a></button>
+          </div>
+          <div className="project01-details-evaluation">
+            <h1>Reflection</h1>
+            <p>Post-prototype, our focus shifts to user testing and iterative refinement. This process honed my skills in empathetic, user-centered design, and problem-solving. I learned the value of teamwork and diverse perspectives in creating functional, aesthetic solutions. Next, we'll integrate user feedback, emphasizing usability improvements, further advancing my design thinking and user experience strategies.</p>
+          </div>
         </div>
       </div>
     </div>

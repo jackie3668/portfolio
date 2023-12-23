@@ -35,8 +35,8 @@ const Navbar = () => {
         <ul className={`navbar-items ${menuClicked && (menuHidden ? 'slide-out-left' : 'slide-in-left')} ${!menuClicked ? 'hidden' : ''}`}>
           <li>HOME</li>
           <li>SKILLS</li>
-          <li>MOST RECENT</li>
-          <li>PAST PROJECT</li>
+          <li>FEATURED PROJECTS</li>
+          <li>ALL PROJECTS</li>
           <li>CONTACT</li>
         </ul>
       </div>
