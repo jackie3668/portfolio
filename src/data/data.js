@@ -11,11 +11,10 @@ const projects = [
       require("../asset/project/project01/Background.png"),
       require("../asset/project/project01/Background-1.png"),
       require("../asset/project/project01/Background-2.png"),
-    ],
-    linkUrl: "https://jackie3668.github.io/portfolio/01" 
+    ]
   },
   {
-    id: "01",
+    id: "02",
     type: "Front End",
     title: "Glimmering Grove",
     tagline: "Jewelry E-Commerce Website",
