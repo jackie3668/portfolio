@@ -6,11 +6,16 @@ const projects = [
     tagline: "Human-centric UX Project",
     keywords: ["UX research", "Figma", "Wireframing", "Prototyping"],
     description: "The 'Understanding and Addressing Mental Health Challenges in Toronto's Winter' project, Sep-Dec 2023, prioritized user-centered design, encompassing primary research, persona creation, ideation, and mobile interface design.",
-    imageUrls: [require("../asset/project/project01/preview1.png")], 
+    imageUrls: [
+      require("../asset/project/project01/Background-3.png"),
+      require("../asset/project/project01/Background.png"),
+      require("../asset/project/project01/Background-1.png"),
+      require("../asset/project/project01/Background-2.png"),
+    ],
     linkUrl: "/01" 
   },
   {
-    id: "02",
+    id: "01",
     type: "Front End",
     title: "Glimmering Grove",
     tagline: "Jewelry E-Commerce Website",
@@ -34,7 +39,12 @@ const projects = [
     tagline: "Press-On Nails Website",
     keywords: ["React", "HTML", "CSS", "Canva", "Figma"],
     description: "Front-end web project for 'Bling Bristles,'' my press-on nails e-commerce store, featuring a bold and chic design with pastel colors for a seamless shopping experience.",
-    imageUrls: [require("../asset/project/project03/preview1.jpg")], 
+    imageUrls: [
+      require("../asset/project/project03/Background.png"),
+      require("../asset/project/project03/Background-1.png"),
+      require("../asset/project/project03/Background-2.png"),
+      require("../asset/project/project03/Background-3.png"),
+    ],
     linkUrl: "https://jackie3668.github.io/bling-bristles/"
   },
   {
@@ -44,7 +54,13 @@ const projects = [
     tagline: "Tarot Reading App",
     keywords: ["React", "API", "HTML", "CSS", "Canva", "Figma"],
     description: "I developed 'Celestial Tarot,' a personalized tarot reading app powered by OpenAI API 3.5 Turbo. It offers animated readings and showcases a minimalist design for an enchanting user experience.",
-    imageUrls: [require("../asset/project/project04/preview1.jpg")], 
+    imageUrls: [
+      require("../asset/project/project04/Background.png"),
+      require("../asset/project/project04/Background-1.png"),
+      require("../asset/project/project04/Background-2.png"),
+      require("../asset/project/project04/Background-3.png"),
+      require("../asset/project/project04/Background-4.png"),
+    ],
     linkUrl: "https://jackie3668.github.io/celestial-tarot/"
   }
 ];
