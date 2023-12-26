@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.d5e329e5.css",
+    "main.js": "/portfolio/static/js/main.c9e207ab.js",
+    "static/media/background07.png": "/portfolio/static/media/background07.71302812c097c86e2051.png",
+    "static/media/hero_bg.jpg": "/portfolio/static/media/hero_bg.9d00e645d3e4dd4eaf79.jpg",
+    "static/media/Preview-7.png": "/portfolio/static/media/Preview-7.390a806cd8cd2d5b9e7d.png",
+    "static/media/Preview-1.png": "/portfolio/static/media/Preview-1.3b2d6cf372aa0b226114.png",
+    "static/media/Background-3.png": "/portfolio/static/media/Background-3.c61ded960d2fd7946e73.png",
+    "static/media/Background-1.png": "/portfolio/static/media/Background-1.35ea2def670417dfa1e7.png",
+    "static/media/Background.png": "/portfolio/static/media/Background.4e1a40baf0260c599a9e.png",
+    "static/media/Preview-4.png": "/portfolio/static/media/Preview-4.604bb100110e7dda7b94.png",
+    "static/media/Background-2.png": "/portfolio/static/media/Background-2.a8a1f617a95b282f5506.png",
+    "static/media/Preview-2.png": "/portfolio/static/media/Preview-2.88fd20108b7437d229d8.png",
+    "static/media/Preview-3.png": "/portfolio/static/media/Preview-3.f77d41859840f6668b99.png",
+    "static/media/Preview-5.png": "/portfolio/static/media/Preview-5.1d23b66159620b28ca5a.png",
+    "static/media/ideas.png": "/portfolio/static/media/ideas.022698d2d6b0247fce93.png",
+    "static/media/Preview-6.png": "/portfolio/static/media/Preview-6.3ed755c4e30f0d210b48.png",
+    "static/media/Background-4.png": "/portfolio/static/media/Background-4.4039b823dbe8bc109e6f.png",
+    "static/media/needs.png": "/portfolio/static/media/needs.625cfbfc09ee253c38e7.png",
+    "static/media/ideation.png": "/portfolio/static/media/ideation.f988ab3855d8c64f8bc4.png",
+    "static/media/asis.png": "/portfolio/static/media/asis.9b1fce7d4fbb22c43a96.png",
+    "static/media/mifi.png": "/portfolio/static/media/mifi.f6bb150d39240bfffc18.png",
+    "static/media/persona.jpg": "/portfolio/static/media/persona.800eab60930e68026af3.jpg",
+    "static/media/tobe.png": "/portfolio/static/media/tobe.a60fc1dbd9daffb1230c.png",
+    "static/media/lofi.png": "/portfolio/static/media/lofi.9acdca7726c94bab64d6.png",
+    "static/media/affinity.png": "/portfolio/static/media/affinity.cea2152cd660ab1c4dab.png",
+    "static/media/arrow-circle-right.png": "/portfolio/static/media/arrow-circle-right.6feb23dc3a058decf83f.png",
+    "static/media/arrow-circle-left.png": "/portfolio/static/media/arrow-circle-left.854168b0289f491d2ab7.png",
+    "index.html": "/portfolio/index.html",
+    "main.d5e329e5.css.map": "/portfolio/static/css/main.d5e329e5.css.map",
+    "main.c9e207ab.js.map": "/portfolio/static/js/main.c9e207ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5e329e5.css",
+    "static/js/main.c9e207ab.js"
+  ]
+}
