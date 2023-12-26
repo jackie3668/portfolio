@@ -8,7 +8,7 @@ function App() {
   const scrollToTop = () => {
     window.scrollTo(0, 0);
   };
-  
+
   return (
     <Router basename='/portfolio'>
       <div className="App">
