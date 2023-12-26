@@ -5,7 +5,7 @@ import projects from '../../data/data'
 
 const FeaturedGallery = () => {
   return (
-    <div className="featured-gallery">
+    <div className="featured-gallery" id='featured-gallery'>
       {projects.map((project, index) => (
         <ProjectPreview 
         key={index}

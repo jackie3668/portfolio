@@ -12,7 +12,7 @@ const projects = [
       require("../asset/project/project01/Background-1.png"),
       require("../asset/project/project01/Background-2.png"),
     ],
-    linkUrl: "/01" 
+    linkUrl: "/portfolio/01" 
   },
   {
     id: "01",
