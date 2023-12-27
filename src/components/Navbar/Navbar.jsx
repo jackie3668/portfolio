@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom'
 import './Navbar.css';
 import menu from '../../asset/ui/hamburger.png';
 import close from '../../asset/ui/close.png';

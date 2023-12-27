@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
 import './ProjectPreview.css'
 import left from '../../asset/ui/arrow-circle-left.png'
 import right from '../../asset/ui/arrow-circle-right.png'
@@ -48,15 +47,9 @@ const ProjectPreview = ({ id, type, title, tagline, keywords, description, image
         <h5>{tagline}</h5>
         <h1>{title}</h1>
         <p>{description}</p>
-        {id === '01' ? (
-          <Link to="/01">
-            <button>{type === 'UX/UI' ? 'LEARN MORE' : 'VIEW WEBSITE'} <img src={arrow} alt="" /></button>
-          </Link>
-        ) : (
-          <a href={linkUrl} target="_blank" rel="noopener noreferrer">
-            <button>{type === 'UX/UI' ? 'LEARN MORE' : 'VIEW WEBSITE'} <img src={arrow} alt="" /></button>
-          </a>
-        )}
+        <a href={linkUrl} target="_blank" rel="noopener noreferrer">
+          <button>{type === 'UX/UI' ? 'LEARN MORE' : 'VIEW WEBSITE'} <img src={arrow} alt="" /></button>
+        </a>
       </div>
     </div>
   )
