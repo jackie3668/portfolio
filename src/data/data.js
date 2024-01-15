@@ -35,17 +35,19 @@ const projects = [
   {
     id: "03",
     type: "Front End",
-    title: "Bling Bristles",
-    tagline: "Press-On Nails Website",
+    title: "Stardust",
+    tagline: "Daily Horoscope Generator",
     keywords: ["React", "HTML", "CSS", "Canva", "Figma"],
-    description: "Front-end web project for 'Bling Bristles,'' my press-on nails e-commerce store, featuring a bold and chic design with pastel colors for a seamless shopping experience.",
+    description: "Stardust: A React-based horoscope generator project showcasing my frontend development skills. Utilized APIs for celestial insights and designed with a mystic navy blue theme.",
     imageUrls: [
-      require("../asset/project/project03/Background.png"),
-      require("../asset/project/project03/Background-1.png"),
-      require("../asset/project/project03/Background-2.png"),
-      require("../asset/project/project03/Background-3.png"),
+      require("../asset/project/project05/Background-0.png"),
+      require("../asset/project/project05/Background-1.png"),
+      require("../asset/project/project05/Background-2.png"),
+      require("../asset/project/project05/Background-3.png"),
+      require("../asset/project/project05/Background-4.png"),
+
     ],
-    linkUrl: "https://jackie3668.github.io/bling-bristles/"
+    linkUrl: "https://jackie3668.github.io/stardust/"
   },
   {
     id: "04",
@@ -62,6 +64,21 @@ const projects = [
       require("../asset/project/project04/Background-4.png"),
     ],
     linkUrl: "https://jackie3668.github.io/celestial-tarot/"
+  },
+  {
+    id: "05",
+    type: "Front End",
+    title: "Bling Bristles",
+    tagline: "Press-On Nails Website",
+    keywords: ["React", "HTML", "CSS", "Canva", "Figma"],
+    description: "Front-end web project for 'Bling Bristles,'' my press-on nails e-commerce store, featuring a bold and chic design with pastel colors for a seamless shopping experience.",
+    imageUrls: [
+      require("../asset/project/project03/Background.png"),
+      require("../asset/project/project03/Background-1.png"),
+      require("../asset/project/project03/Background-2.png"),
+      require("../asset/project/project03/Background-3.png"),
+    ],
+    linkUrl: "https://jackie3668.github.io/bling-bristles/"
   }
 ];
 
