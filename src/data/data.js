@@ -8,7 +8,7 @@ const projects = [
     description: "The 'Understanding and Addressing Mental Health Challenges in Toronto's Winter' project, Sep-Dec 2023, prioritized user-centered design, encompassing primary research, persona creation, ideation, and mobile interface design.",
     imageUrls: [
       require("../asset/project/project01/Background-3.png"),
-      require("../asset/project/project01/Background.png"),
+      require("../asset/project/project01/background.png"),
       require("../asset/project/project01/Background-1.png"),
       require("../asset/project/project01/Background-2.png"),
     ],
